@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="false" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.hakan.tictactoe.config.GameConfiguration" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/config/GameConfiguration.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="240" width="257" x="1193" y="37"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.hakan.tictactoe.game.playfield.Play" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/playfield/Play.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="167" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.hakan.tictactoe.game.playfield.Cell" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/playfield/Cell.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="167" x="41" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.hakan.tictactoe.game.playfield.PlayField" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/playfield/PlayField.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="173" width="183" x="1544" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.hakan.tictactoe.game.playfield.PlayFieldPrinter" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/playfield/PlayFieldPrinter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="119" width="167" x="1994" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.hakan.tictactoe.game.win.WinChecker" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/win/WinChecker.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="232" x="828" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="com.hakan.tictactoe.game.win.TicTacToeWinChecker" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/win/TicTacToeWinChecker.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="232" x="744" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.hakan.tictactoe.game.Game" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/Game.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="189" x="1315" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="com.hakan.tictactoe.game.TicTacToeGame" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/TicTacToeGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="235" width="326" x="1490" y="37"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="10" language="java" name="com.hakan.tictactoe.game.GameStatus" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/game/GameStatus.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="187" x="1767" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="11" language="java" name="com.hakan.tictactoe.player.play.generator.EasyLevelPlayGenerator" 
+    project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/play/generator/EasyLevelPlayGenerator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="195" x="1485" y="548"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="com.hakan.tictactoe.player.play.generator.PlayGenerator" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/play/generator/PlayGenerator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="113" width="195" x="1358" y="707"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" name="com.hakan.tictactoe.player.play.supplier.PlaySupplier" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/play/supplier/PlaySupplier.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="83" width="187" x="848" y="707"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="com.hakan.tictactoe.player.play.supplier.ConsolePlaySupplier" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/play/supplier/ConsolePlaySupplier.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="187" x="735" y="548"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.hakan.tictactoe.player.AIPlayer" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/AIPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="213" x="1232" y="548"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="16" language="java" name="com.hakan.tictactoe.player.PlayerType" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/PlayerType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="137" x="1016" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="17" language="java" name="com.hakan.tictactoe.player.Player" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="175" x="1100" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.hakan.tictactoe.player.PlayerFactory" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/PlayerFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="239" x="248" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.hakan.tictactoe.player.HumanPlayer" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/player/HumanPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="230" x="962" y="548"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.hakan.tictactoe.TicTacToeGameEngine" project="tictactoe" 
+    file="/tictactoe/src/main/java/com/hakan/tictactoe/TicTacToeGameEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="177" x="527" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <association id="21">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="22" name="winner"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="25" name="cell"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="28" name="players"/>      
+      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="31" name="playGenerator"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="33">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="34">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="35" name="playSupplier"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <association id="38">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="39" name="INVALID_CELL"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="42" name="playField"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="45" name="turn"/>      
+      <multiplicity id="46" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="48" name="playFieldPrinter"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="51" name="winChecker"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="53">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="54">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="55" name="status"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="57">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="58">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="17"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="false" static="true"/>    
+    <operations public="true" package="false" protected="false" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="true"/>
+</class-diagram>
